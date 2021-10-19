@@ -14,6 +14,7 @@ public class ProjectClass{
     // Constructor overloaded
     public ProjectClass( String name ){
         this.name = name;
+        this.description = "This project will be awesome!";
     }
 
     // Getters
