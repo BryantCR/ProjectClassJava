@@ -4,6 +4,7 @@ public class ProjectClass{
     // Attributes
     private String name;
     private String description;
+    private String elevatorPitch;
 
     public ProjectClass( String name, String description ){
         this.name = name;
@@ -36,6 +37,10 @@ public class ProjectClass{
     public void print(){
         System.out.println( "Name: " + this.name );
         System.out.println( "Description: " + this.description );    
+    }
+
+    public void elevatorPitch() {
+        System.out.println(String.format("Project %s: %s", this.name, this.description));
     }
 
 }
