@@ -6,7 +6,6 @@ public class ProjectClassTest {
         ProjectClass lavaVolcano = new ProjectClass("Lava Volcano", "Lava, magma (molten rock) emerging as a liquid onto Earth's surface.");
         ProjectClass puppyApp = new ProjectClass("PuppyApp");
 
-        
         System.out.println("Project Tittle: "+ solarSystem.getName());
         System.out.println("Project Description: "+ solarSystem.getDescription());
         solarSystem.print();
